@@ -118,6 +118,7 @@ export const QueryAndExpressionsStep = ({ editingExistingRule, onDataChange, mod
   }, [queries]);
   const dataSourceUid = dataQueries[0]?.datasourceUid;
 
+  // gpg git test
   // expression queries only
   const expressionQueries = useMemo(() => {
     return queries.filter((query) => isExpressionQueryInAlert(query));
